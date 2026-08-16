@@ -13,3 +13,4 @@
 console.log(typeof 18)
 
 console.log(typeof "ansh")
+console.log(typeof null)
