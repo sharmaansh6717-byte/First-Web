@@ -73,3 +73,4 @@ let userTwo = userOne // stored in heap memory  the userTwo is pointing to the s
 userTwo.email = "anshsharma@gmail.com"
 
 console.log(userOne.email); // output => anshsharma@gmail.com
+
