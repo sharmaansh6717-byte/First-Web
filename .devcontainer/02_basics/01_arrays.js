@@ -10,7 +10,7 @@ console.log(myArr.pop()); // 6  removes the last element from the array and retu
 console.log(myArr); // [1, 2, 3, 4, 5]
 
 console.log(myArr.shift()); // 1  removes the first element from the array and returns that element
-console.log(myArr); // [2, 3, 4, 5] 
+console.log(myArr); //    [2, 3, 4, 5] 
 
 console.log(myArr.unshift(1)); // 5  adds an element to the beginning of the array and returns the new length of the array  
 
