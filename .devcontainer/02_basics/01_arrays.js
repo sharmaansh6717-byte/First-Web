@@ -36,3 +36,5 @@ console.log(newArr2); // "1 - 2 - 3 - 4 - 5"
 
 const newArr3 = myArr.concat([6, 7, 8]); // [1, 2, 3, 4, 5, 6, 7, 8]  merges two or more arrays and returns a new array
 console.log(newArr3); // [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(myArr.pop()); // 5  removes the last element from the array and returns that element
+console.log(myArr); // [1, 2, 3, 4]  the original array is changed
