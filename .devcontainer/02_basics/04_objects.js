@@ -53,7 +53,7 @@ const users = [
 users[1].email
 
 console.log(tinderUser) ; //{ id: 'a123@bc', name: 'rahul', isloggedIn: false }
-console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isloggedIn' ]
+console.log(Object.keys(tinderUser)); //  [ 'id', 'name', 'isloggedIn' ]
 console.log(Object.values(tinderUser)); //[ 'a123@bc', 'rahul', false ]
 console.log(Object.entries(tinderUser)); //[ [ 'id', 'a123@bc' ], [ 'name', 'rahul' ], [ 'isloggedIn', false ] ]
 
