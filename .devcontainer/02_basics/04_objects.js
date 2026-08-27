@@ -105,4 +105,4 @@ console.log(instructor); //ansh
 //     {} 
 // ]
 
-//to understand the data from API in JSON format we can use JSON formatter online ..to undrestand it ..
+//to understand the data from API in JSON format we can use JSON formatter online ..to undrestand it 
