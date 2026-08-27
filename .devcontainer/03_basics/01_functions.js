@@ -24,24 +24,53 @@ const result = addTwoNumbers(4,5)
 // }
 // console.log(loginUserMessage("Ansh")) //if here no value passed then it will return undefined just logged in.. 
 
-function loginUserMessage(username)
-{
-    // if(username === undefined){
-    //     console.log("Please enter the username");
+// function loginUserMessage(username)
+// {
+//     // if(username === undefined){
+//     //     console.log("Please enter the username");
         
-    // }
-    //the above if condition can also written as below
-    if(!username)
-    {
-        console.log("Please enter the username");
-        return
-    }
-    else{
-         return `${username} just logged in..`
+//     // }
+//     //the above if condition can also written as below
+//     if(!username)
+//     {
+//         console.log("Please enter the username");
+//         return
+//     }
+//     else{
+//          return `${username} just logged in..`
 
-    }
+//     }
    
-}
-//console.log(loginUserMessage());
+// }
+// //console.log(loginUserMessage());
 
-console.log(loginUserMessage("Ansh"))
+// console.log(loginUserMessage("Ansh"))
+
+function calculateCarPrice(...num1) //used REST operator which combines the data into array
+{
+    return num1
+
+}
+// console.log(calculateCarPrice(200,300,4000)); //[ 200, 300, 4000 ]
+
+const user = {
+    username : "ansh",
+    price : 999
+}
+function handlingObject(anyobject)
+{
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price} `)
+}
+// handlingObject(user)
+handlingObject({
+    username : "ansh",   //-> it can be passed like this also
+    price : "99"
+})
+
+const myNewArr = [100,200,300]
+
+function returnSecondVal(getArray)
+{
+    return getArray[1]
+}
+console.log(returnSecondVal(myNewArr));
