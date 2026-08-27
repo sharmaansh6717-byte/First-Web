@@ -58,3 +58,51 @@ console.log(Object.values(tinderUser)); //[ 'a123@bc', 'rahul', false ]
 console.log(Object.entries(tinderUser)); //[ [ 'id', 'a123@bc' ], [ 'name', 'rahul' ], [ 'isloggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('isloggedIn')); //true
+
+
+
+//DE-STRUCTURING OF OBJECTS 
+const course = {
+    coursename : "Js in hindi",
+    price : "999",
+    courseInstructor : "ansh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor} = course
+
+console.log(courseInstructor); //ansh
+
+const{courseInstructor : instructor} = course //renamed the key in the object 
+
+console.log(instructor); //ansh
+
+//JSON and API intro 
+
+//JavaScript Object Notation, and it is a lightweight, text-based format used to store and transport structured data.
+
+//How JSON WorksKey-Value Pairs:
+// Data is organized into name and value pairs (e.g., "name": "Alice").Objects and Arrays: Objects use curly braces {} to hold multiple pairs, while arrays use square brackets [] for ordered lists of items.Supported Data Types: It supports strings, numbers, booleans (true/false), arrays, objects, and null.
+
+//Common Uses :
+// APIs and Web Apps: Servers send data to a web browser or app in JSON format so the interface can display it dynamically.Configuration Files: Programs use .json files to save settings and app configurations.Language Independent: Although derived from JavaScript syntax, almost all modern programming languages (like Python, Java, and C#) can easily read and write JSON.
+
+//An API is a messenger that lets software programs talk to each other, while JSON is the specific language or format used to write down the message being sent.To use an everyday analogy: the API is the mail carrier delivering a package, and JSON is the cardboard box containing the structured items inside.
+
+//[ Application A ]  --- (Sends Request via API) --->  [ Application B ]
+// [ Application A ]  <--- (Returns Data in JSON) ----  [ Application B ]
+
+// {
+//     name : "ansh",
+//     price : "999",          --> JSON format ..API fulfill the request in this format ..object format 
+//     coursename : "js in hindi "
+// }
+
+// [
+//     {},
+//     {},    --> API also get the request in the array format also having the objects inside it 
+//     {} 
+// ]
+
+//to understand the data from API in JSON format we can use JSON formatter online ..to undrestand it ..
