@@ -8,3 +8,4 @@ switch (expression) {
   default:
     // code to execute if expression doesn't match any case
 }
+
