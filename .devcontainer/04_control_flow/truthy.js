@@ -27,8 +27,8 @@ const values = [false, 0, -0, 0n, "", '', ``, null, undefined, NaN, true, {}, []
 
 values.forEach(value => {
     if (value) {
-        console.log(`${value} is truthy`);
+        console.log(`${value} is truthy `);
     } else {
-        console.log(`${value} is falsy`);
+        console.log(`${value} is falsy `);
     }
 });
